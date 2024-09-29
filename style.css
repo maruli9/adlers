@@ -2,6 +2,7 @@ body{background-color: rgb(201, 201, 206);
     width: 96%;
     
     font-family: 'nunito';
+    letter-spacing: 2px;
     
     
     
@@ -70,5 +71,8 @@ h1{
     .zdj{
         width: 100%;
         
+    }
+    .bildek{
+        width: 180px;
     }
 }
