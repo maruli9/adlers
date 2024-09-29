@@ -61,6 +61,27 @@ h1{
 .pojemnik{
     color: black;
 }
+.hok{
+    cursor: pointer;
+    transition: .5s;
+}
+.hok:hover{
+    transform: scale(1.2) rotate(1000deg);
+}
+
+.lotka {
+    
+    transform: rotate(200deg);
+    position: absolute;
+    top: 600px;
+    animation: mymove 2s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: -200px;}
+    to {left: 2700px;}
+  }
+
 
 @media (max-width: 768px) {
 
@@ -74,5 +95,14 @@ h1{
     }
     .bildek{
         width: 180px;
+    }
+    .hok{
+        /*display: none;*/
+        position: absolute;
+        transform: scale(0.3);
+        left: -80px;
+    top: 80px;}
+    .lotka{
+        display: none;
     }
 }
