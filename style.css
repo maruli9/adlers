@@ -1,0 +1,72 @@
+body{background-color: rgb(201, 201, 206);
+    width: 100%;
+    
+    font-family: 'nunito';
+    
+    
+    
+    
+    
+    
+    }
+.bildek{ margin-top: 50px;
+    
+ max-width: 220px;
+ 
+ 
+
+}
+.fot{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    
+    align-items: center;
+    border-radius: 10px;
+    border-color: white;
+}
+.zdj{
+    width: 500px;
+    border-radius: 10px;
+    border: #fff solid 2px;
+    
+    
+}
+
+button{
+            width: 150px;
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+   
+    
+    
+}
+h3{
+    text-align: center;
+    width: 320px;
+}
+h1{
+    width: 320px;
+    
+    font-size: 1.25rem;
+    color:rgb(110, 110, 110);
+}
+.pojemnik{
+    color: black;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        color: rgb(43, 12, 110);
+    }
+    .zdj{
+        width: 100%;
+    }
+}
