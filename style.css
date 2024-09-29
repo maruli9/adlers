@@ -18,10 +18,9 @@ body{background-color: rgb(201, 201, 206);
 }
 .fot{
     display: flex;
-    width: 100%;
+    
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    
     flex-direction: column;
     
     align-items: center;
@@ -65,8 +64,10 @@ h1{
 
     body {
         color: rgb(43, 12, 110);
+        
     }
     .zdj{
         width: 100%;
+        height: 100vh;
     }
 }
