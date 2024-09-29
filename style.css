@@ -115,4 +115,7 @@ h1{
     .lotka{
         display: none;
     }
+    .zdj:hover{
+        transform: scale(1);
+    }
 }
