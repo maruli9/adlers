@@ -33,8 +33,13 @@ body{background-color: rgb(201, 201, 206);
     width: 500px;
     border-radius: 10px;
     border: #fff solid 2px;
+    cursor: pointer;
+    transition: .5s;
     
     
+}
+.zdj:hover{
+    transform: scale(1.5);
 }
 
 button{
@@ -73,8 +78,10 @@ h1{
     
     transform: rotate(200deg);
     position: absolute;
-    top: 600px;
+    top: 200px;
     animation: mymove 2s infinite;
+    z-index: -100;
+    display: none;
   }
   
   @keyframes mymove {
